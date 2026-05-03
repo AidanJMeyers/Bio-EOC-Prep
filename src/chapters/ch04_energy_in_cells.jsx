@@ -11,7 +11,7 @@ export default {
       title: 'The Photosynthesis Equation',
       subtitle: 'Sunlight + CO₂ + H₂O → glucose + O₂',
       images: [
-        { src: 'ch04_energy_in_cells/01_unit5_p1_i0.png', alt: 'Photosynthesis equation diagram — source: Honors Bio Unit 5', caption: 'The summary equation' }
+        { src: 'svg/photosynthesis_respiration.svg', alt: 'Photosynthesis and cellular respiration cycle with chloroplast and mitochondrion', caption: 'Photosynthesis stores energy as glucose; cellular respiration releases it as ATP' }
       ],
       content: (
         <>
@@ -28,9 +28,7 @@ export default {
       id: 'photo-stages',
       title: 'Two Stages of Photosynthesis',
       subtitle: 'Light reactions + Calvin cycle',
-      images: [
-        { src: 'ch04_energy_in_cells/03_unit5_image3.png', alt: 'Photosynthesis stages — source: Unit 5A practice test', caption: 'Light + dark reactions' }
-      ],
+      images: [],
       content: (
         <>
           <Table
@@ -48,9 +46,7 @@ export default {
       id: 'respiration-equation',
       title: 'Cellular Respiration',
       subtitle: 'The reverse equation',
-      images: [
-        { src: 'ch04_energy_in_cells/04_unit5_image4.png', alt: 'Cellular respiration overview — source: Unit 5A practice test', caption: 'Three stages of respiration' }
-      ],
+      images: [],
       content: (
         <>
           <p>Cellular respiration releases the chemical energy stored in glucose to make ATP — the cell\'s direct energy currency:</p>
@@ -66,9 +62,7 @@ export default {
       id: 'respiration-stages',
       title: 'Three Stages of Respiration',
       subtitle: 'Glycolysis → Krebs → Electron transport',
-      images: [
-        { src: 'ch04_energy_in_cells/05_unit5_image5.png', alt: 'Respiration stages flow — source: Unit 5A', caption: 'Energy harvest steps' }
-      ],
+      images: [],
       content: (
         <>
           <Table
@@ -105,9 +99,7 @@ export default {
       id: 'energy-cycle',
       title: 'The Photosynthesis–Respiration Cycle',
       subtitle: 'How energy and matter cycle through ecosystems',
-      images: [
-        { src: 'ch04_energy_in_cells/06_unit5_image6.png', alt: 'Photosynthesis vs respiration comparison — source: Unit 5A', caption: 'Mirror reactions' }
-      ],
+      images: [],
       content: (
         <>
           <p>These two pathways form a cycle: photosynthesis takes in CO₂ + H₂O and releases O₂; respiration takes in O₂ + glucose and releases CO₂ + H₂O. The atmosphere provides the shared pool of O₂ and CO₂.</p>

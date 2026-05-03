@@ -37,7 +37,7 @@ export default {
       title: 'Cardiovascular System',
       subtitle: 'Heart, blood vessels, blood',
       images: [
-        { src: 'ch10_human_body/01_practicetest_p17.png', alt: 'Cardiovascular system diagram — source: official practice test p.17', caption: 'Heart and circulation' }
+        { src: 'svg/circulatory.svg', alt: 'Cardiovascular system showing heart, lungs, body tissues, and pulmonary and systemic circuits', caption: 'Two circuits: pulmonary (heart ↔ lungs) and systemic (heart ↔ body tissues)' }
       ],
       content: (
         <>
@@ -82,9 +82,7 @@ export default {
       id: 'reproduction',
       title: 'Human Reproduction',
       subtitle: 'Gametes, fertilization, development',
-      images: [
-        { src: 'ch10_human_body/05_unit12_p3_i2.png', alt: 'Reproductive system anatomy — source: Honors Bio Unit 12', caption: 'Reproductive structures' }
-      ],
+      images: [],
       content: (
         <>
           <Table
@@ -126,10 +124,7 @@ export default {
       id: 'plants',
       title: 'Plant Tissues & Transport',
       subtitle: 'Xylem, phloem, leaves',
-      images: [
-        { src: 'ch10_human_body/02_unit12_p1_i0.png', alt: 'Plant anatomy — source: Honors Bio Unit 12', caption: 'Roots, stem, leaves' },
-        { src: 'ch10_human_body/03_unit12_p3_i0.jpeg', alt: 'Leaf cross-section — source: Honors Bio Unit 12', caption: 'Mesophyll, stomata, vascular bundle' }
-      ],
+      images: [],
       content: (
         <>
           <Table

@@ -10,9 +10,7 @@ export default {
       id: 'levels',
       title: 'Levels of Ecological Organization',
       subtitle: 'Organism → biosphere',
-      images: [
-        { src: 'ch09_ecology/13_unit13_p1_i0.png', alt: 'Levels of organization in ecology — source: Honors Bio Unit 13', caption: 'Population to biosphere' }
-      ],
+      images: [],
       content: (
         <>
           <Table
@@ -35,8 +33,8 @@ export default {
       title: 'Energy Flow: Food Chains & Webs',
       subtitle: '10% rule and trophic levels',
       images: [
-        { src: 'ch09_ecology/10_practicetest_p8.png', alt: 'Marine food web — source: official practice test p.8', caption: 'Marine food web (phytoplankton → krill → fish → seabird/seal)' },
-        { src: 'ch09_ecology/12_officialeoc_p9.png', alt: 'Food chain — source: Biology1-EOC.pdf p.9', caption: 'Linear food chain' }
+        { src: 'svg/food_web.svg', alt: 'Marine food web with phytoplankton, zooplankton, krill, fish, squid, penguin, seabirds, seal showing arrows of energy flow', caption: 'Marine food web — energy flows from producers up; ~10% retained at each level' },
+        { src: 'svg/energy_pyramid.svg', alt: 'Energy pyramid showing 10% transfer rule across producer, primary, secondary, tertiary, apex consumers', caption: 'Energy pyramid: only ~10% of energy moves up each trophic level' }
       ],
       content: (
         <>
@@ -60,10 +58,7 @@ export default {
       id: 'cycles',
       title: 'Biogeochemical Cycles',
       subtitle: 'Matter cycles; energy flows',
-      images: [
-        { src: 'ch09_ecology/01_eocbank_img1.jpeg', alt: 'Carbon cycle diagram — source: Bio EOC bank', caption: 'Carbon cycle' },
-        { src: 'ch09_ecology/02_eocbank_img12.jpeg', alt: 'Water/nitrogen cycle — source: Bio EOC bank', caption: 'Water and nitrogen cycles' }
-      ],
+      images: [],
       content: (
         <>
           <Table
@@ -82,9 +77,7 @@ export default {
       id: 'populations',
       title: 'Population Dynamics',
       subtitle: 'Growth, carrying capacity, limiting factors',
-      images: [
-        { src: 'ch09_ecology/04_eocbank_img28.jpeg', alt: 'Population growth curves — source: Bio EOC bank', caption: 'Exponential vs. logistic growth' }
-      ],
+      images: [],
       content: (
         <>
           <p>A population grows exponentially when resources are unlimited (J-shaped curve). In nature, resources eventually run out, and the population approaches the <strong>carrying capacity</strong> (K) — the maximum population the environment can sustain. The S-shaped curve is called <strong>logistic growth</strong>.</p>
@@ -123,9 +116,7 @@ export default {
       id: 'biodiversity-impact',
       title: 'Biodiversity & Human Impact',
       subtitle: 'Why diversity matters; what we\'re doing',
-      images: [
-        { src: 'ch09_ecology/03_eocbank_img2.jpeg', alt: 'Human impact — source: Bio EOC bank', caption: 'Pollution, habitat loss, climate' }
-      ],
+      images: [],
       content: (
         <>
           <p><strong>Biodiversity</strong> — the variety of life — is critical because it provides ecosystem services (clean water, pollination, decomposition, climate regulation) and resilience to change. The five biggest threats: habitat destruction, invasive species, pollution, overharvesting, and climate change.</p>

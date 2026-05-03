@@ -11,8 +11,7 @@ export default {
       title: 'DNA Structure',
       subtitle: 'The double helix',
       images: [
-        { src: 'ch06_dna_protein_synthesis/06_officialeoc_p7.png', alt: 'DNA double helix — source: Biology1-EOC.pdf p.7', caption: 'Watson-Crick double helix' },
-        { src: 'ch06_dna_protein_synthesis/09_unit7_p1_i0.jpeg', alt: 'DNA structure diagram — source: Honors Bio Unit 7', caption: 'Sugar-phosphate backbone with base pairs' }
+        { src: 'svg/dna_helix.svg', alt: 'DNA double helix with antiparallel strands and base pairs A-T, G-C', caption: 'Antiparallel double helix with A-T and G-C base pairs' }
       ],
       content: (
         <>
@@ -26,9 +25,7 @@ export default {
       id: 'replication',
       title: 'DNA Replication',
       subtitle: 'Semiconservative copying',
-      images: [
-        { src: 'ch06_dna_protein_synthesis/02_eocbank_img17.jpeg', alt: 'Replication fork — source: Bio EOC bank', caption: 'Semiconservative replication' }
-      ],
+      images: [],
       content: (
         <>
           <p>Before a cell divides, every DNA molecule must be duplicated. <strong>Helicase</strong> unwinds the helix; <strong>DNA polymerase</strong> reads each strand as a template and adds complementary nucleotides at the 3\' end. Each new double helix has one old strand + one new strand — the basis of <strong>semiconservative replication</strong>.</p>
@@ -50,7 +47,7 @@ export default {
       title: 'The Central Dogma',
       subtitle: 'DNA → RNA → Protein',
       images: [
-        { src: 'ch06_dna_protein_synthesis/03_eocbank_img18.png', alt: 'Central dogma flow — source: Bio EOC bank', caption: 'DNA → RNA → Protein' }
+        { src: 'svg/central_dogma.svg', alt: 'Central dogma flow: DNA in nucleus → mRNA codons → amino acid chain at ribosome', caption: 'DNA → mRNA (transcription) → Protein (translation)' }
       ],
       content: (
         <>
@@ -82,9 +79,7 @@ export default {
       id: 'translation',
       title: 'Translation: mRNA → Protein',
       subtitle: 'Ribosome reads codons',
-      images: [
-        { src: 'ch06_dna_protein_synthesis/04_eocbank_img19.jpeg', alt: 'Ribosome translating mRNA — source: Bio EOC bank', caption: 'Codon-anticodon pairing' }
-      ],
+      images: [],
       content: (
         <>
           <p>The ribosome reads mRNA three nucleotides at a time. Each <strong>codon</strong> specifies one of the 20 amino acids (or a "start"/"stop" signal). <strong>Transfer RNA (tRNA)</strong> shuttles amino acids in: each tRNA has an <strong>anticodon</strong> that pairs with the mRNA codon and carries the matching amino acid at its other end.</p>
@@ -105,9 +100,7 @@ export default {
       id: 'mutations',
       title: 'Mutations',
       subtitle: 'Changes to DNA — and what they do',
-      images: [
-        { src: 'ch06_dna_protein_synthesis/05_eocbank_img20.jpeg', alt: 'Mutation types — source: Bio EOC bank', caption: 'Point mutations and frameshifts' }
-      ],
+      images: [],
       content: (
         <>
           <Table

@@ -11,8 +11,7 @@ export default {
       title: 'Prokaryotic vs. Eukaryotic Cells',
       subtitle: 'Two domains of cellular life',
       images: [
-        { src: 'ch03_cells/02_cells_image1.png', alt: 'Prokaryotic cell diagram — source: Hon Bio Unit 4 Cells Test', caption: 'Prokaryote — no nucleus' },
-        { src: 'ch03_cells/03_cells_image2.png', alt: 'Eukaryotic cell — source: Hon Bio Unit 4 Cells Test', caption: 'Eukaryote — membrane-bound nucleus and organelles' }
+        { src: 'svg/animal_cell.svg', alt: 'Labeled animal cell with nucleus, mitochondria, ER, Golgi, ribosomes', caption: 'Eukaryotic animal cell — membrane-bound nucleus and organelles' }
       ],
       content: (
         <>
@@ -37,8 +36,7 @@ export default {
       title: 'Plant vs. Animal Cells',
       subtitle: 'What plants have that animals don\'t',
       images: [
-        { src: 'ch03_cells/04_cells_image3.png', alt: 'Plant vs animal cell diagram — source: Hon Bio Unit 4', caption: 'Side-by-side comparison' },
-        { src: 'ch03_cells/14_unit4_p1_i0.jpeg', alt: 'Animal cell labeled — source: Honors Bio Unit 4', caption: 'Animal cell organelles' }
+        { src: 'svg/plant_cell.svg', alt: 'Labeled plant cell showing cell wall, chloroplasts, central vacuole, mitochondrion', caption: 'Plant-only structures: cell wall, chloroplasts, large central vacuole' }
       ],
       content: (
         <>
@@ -57,10 +55,7 @@ export default {
       id: 'organelles',
       title: 'Major Organelles & Their Jobs',
       subtitle: 'Endomembrane system + powerhouses',
-      images: [
-        { src: 'ch03_cells/05_cells_image4.png', alt: 'Organelle functions — source: Hon Bio Unit 4', caption: 'Organelle reference' },
-        { src: 'ch03_cells/15_unit4_p1_i1.png', alt: 'Endomembrane flow — source: Honors Bio Unit 4', caption: 'Protein flow: nucleus → ER → Golgi → vesicle' }
-      ],
+      images: [],
       content: (
         <>
           <Table
@@ -87,8 +82,7 @@ export default {
       title: 'The Plasma Membrane',
       subtitle: 'Phospholipid bilayer; selective permeability',
       images: [
-        { src: 'ch03_cells/06_cells_image5.png', alt: 'Membrane structure diagram — source: Hon Bio Unit 4', caption: 'Phospholipid bilayer + proteins' },
-        { src: 'ch03_cells/19_unit4_p4_i1.png', alt: 'Membrane proteins — source: Honors Bio Unit 4', caption: 'Channel proteins, carrier proteins, receptors' }
+        { src: 'svg/membrane_transport.svg', alt: 'Three modes of membrane transport: simple diffusion, facilitated diffusion, active transport', caption: 'Phospholipid bilayer with channel proteins and ATP-driven pumps' }
       ],
       content: (
         <>
@@ -102,8 +96,7 @@ export default {
       title: 'Cellular Transport',
       subtitle: 'Passive vs. active; osmosis',
       images: [
-        { src: 'ch03_cells/22_unit4_p6_i2.png', alt: 'Diffusion vs active transport — source: Honors Bio Unit 4', caption: 'Three modes of membrane transport' },
-        { src: 'ch03_cells/16_unit4_p3_i0.jpeg', alt: 'Tonicity diagram — source: Honors Bio Unit 4', caption: 'Hypotonic / isotonic / hypertonic' }
+        { src: 'svg/tonicity.svg', alt: 'Tonicity comparison: animal and plant cells in hypotonic, isotonic, and hypertonic solutions', caption: 'Hypotonic / isotonic / hypertonic effects on animal vs. plant cells' }
       ],
       content: (
         <>

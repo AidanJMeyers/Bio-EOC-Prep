@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="Inter, system-ui, sans-serif">
+  <rect width="720" height="380" fill="#fef2f2"/>
+  <text x="360" y="28" font-size="18" font-weight="700" text-anchor="middle" fill="#7f1d1d">Punnett Square — Bb × Bb (Heterozygous Cross)</text>
+
+  <!-- Grid -->
+  <g transform="translate(180,80)">
+    <text x="120" y="-20" font-size="13" font-weight="700" text-anchor="middle" fill="#7f1d1d">Father's gametes</text>
+    <text x="120" y="-2" font-size="20" font-weight="700" text-anchor="middle" fill="#1e3a8a">B</text>
+    <text x="200" y="-2" font-size="20" font-weight="700" text-anchor="middle" fill="#1e3a8a">b</text>
+
+    <text x="-30" y="50" font-size="13" font-weight="700" text-anchor="middle" fill="#7f1d1d">Mother's</text>
+    <text x="-30" y="65" font-size="13" font-weight="700" text-anchor="middle" fill="#7f1d1d">gametes</text>
+    <text x="40" y="50" font-size="20" font-weight="700" text-anchor="middle" fill="#1e3a8a">B</text>
+    <text x="40" y="135" font-size="20" font-weight="700" text-anchor="middle" fill="#1e3a8a">b</text>
+
+    <!-- 2x2 grid -->
+    <g stroke="#7f1d1d" stroke-width="2" fill="white">
+      <rect x="80" y="20" width="80" height="60"/>
+      <rect x="160" y="20" width="80" height="60"/>
+      <rect x="80" y="80" width="80" height="60"/>
+      <rect x="160" y="80" width="80" height="60"/>
+    </g>
+    <!-- BB -->
+    <rect x="80" y="20" width="80" height="60" fill="#fef3c7"/>
+    <text x="120" y="56" font-size="22" font-weight="700" text-anchor="middle" fill="#854d0e">BB</text>
+    <!-- Bb -->
+    <rect x="160" y="20" width="80" height="60" fill="#fde68a"/>
+    <text x="200" y="56" font-size="22" font-weight="700" text-anchor="middle" fill="#854d0e">Bb</text>
+    <!-- Bb -->
+    <rect x="80" y="80" width="80" height="60" fill="#fde68a"/>
+    <text x="120" y="116" font-size="22" font-weight="700" text-anchor="middle" fill="#854d0e">Bb</text>
+    <!-- bb -->
+    <rect x="160" y="80" width="80" height="60" fill="#bbf7d0"/>
+    <text x="200" y="116" font-size="22" font-weight="700" text-anchor="middle" fill="#14532d">bb</text>
+    <g stroke="#7f1d1d" stroke-width="2" fill="none">
+      <rect x="80" y="20" width="80" height="60"/>
+      <rect x="160" y="20" width="80" height="60"/>
+      <rect x="80" y="80" width="80" height="60"/>
+      <rect x="160" y="80" width="80" height="60"/>
+    </g>
+  </g>
+
+  <!-- Right side: ratios -->
+  <g transform="translate(480,90)">
+    <text x="0" y="0" font-size="14" font-weight="700" fill="#7f1d1d">Genotype ratio</text>
+    <text x="0" y="20" font-size="13" fill="#1e293b">1 BB : 2 Bb : 1 bb</text>
+
+    <text x="0" y="60" font-size="14" font-weight="700" fill="#7f1d1d">Phenotype ratio</text>
+    <text x="0" y="80" font-size="13" fill="#1e293b">3 dominant : 1 recessive</text>
+
+    <text x="0" y="120" font-size="14" font-weight="700" fill="#7f1d1d">Probability of recessive child</text>
+    <rect x="0" y="130" width="180" height="40" rx="8" fill="#bbf7d0" stroke="#14532d" stroke-width="2"/>
+    <text x="90" y="156" font-size="22" font-weight="700" text-anchor="middle" fill="#14532d">¼ = 25%</text>
+
+    <text x="0" y="200" font-size="11" font-style="italic" fill="#475569">B = dominant (capital)</text>
+    <text x="0" y="215" font-size="11" font-style="italic" fill="#475569">b = recessive (lowercase)</text>
+  </g>
+</svg>

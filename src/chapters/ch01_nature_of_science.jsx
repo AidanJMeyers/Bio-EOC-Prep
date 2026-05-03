@@ -11,8 +11,7 @@ export default {
       title: 'The Scientific Method',
       subtitle: 'How reliable knowledge gets made',
       images: [
-        { src: 'ch01_nature_of_science/01_officialeoc_p1.jpeg', alt: 'Florida Biology 1 EOC official cover — source: Biology1-EOC.pdf p.1', caption: 'Official Biology 1 EOC reference' },
-        { src: 'ch01_nature_of_science/04_unit1_p1_i0.png', alt: 'Scientific method flow chart — source: Honors Bio Unit 1 study guide', caption: 'Honors Bio scientific method overview' }
+        { src: 'svg/scientific_method.svg', alt: 'Scientific method flowchart with iterate-and-peer-review loop', caption: 'Iterative cycle: question → hypothesis → experiment → data → conclusion → peer review' }
       ],
       content: (
         <>
@@ -34,9 +33,6 @@ export default {
       id: 'theory-law',
       title: 'Theory vs. Law vs. Hypothesis',
       subtitle: 'The single biggest misconception in biology',
-      images: [
-        { src: 'ch01_nature_of_science/02_vocab_p1_i0.png', alt: 'Keystone vocabulary chart — source: Honors Bio keystone vocab', caption: 'Vocabulary reference' }
-      ],
       content: (
         <>
           <p>In everyday speech, "theory" means a guess. In science, the word means almost the opposite. A <strong>scientific theory</strong> is a broad, well-substantiated explanation supported by a vast body of evidence—e.g., cell theory, theory of evolution, atomic theory. A <strong>scientific law</strong> describes <em>what</em> happens (often mathematically) but not necessarily <em>why</em>—e.g., Mendel's law of segregation. A <strong>hypothesis</strong> is a single testable prediction.</p>
@@ -53,9 +49,6 @@ export default {
       id: 'tech-progress',
       title: 'Technology Drives Scientific Progress',
       subtitle: 'Microscopes, sequencers, telescopes',
-      images: [
-        { src: 'ch01_nature_of_science/03_midterm_p1.png', alt: 'Microscope/lab equipment — source: Honors Bio midterm study guide', caption: 'Tools of biology' }
-      ],
       content: (
         <>
           <p>Many breakthroughs in biology have followed directly from advances in technology. Robert Hooke's light microscope (1665) made cell theory possible; electron microscopes revealed organelles; DNA sequencing made genomics possible; CRISPR made precise gene editing affordable.</p>

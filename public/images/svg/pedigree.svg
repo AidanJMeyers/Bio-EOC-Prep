@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="Inter, system-ui, sans-serif">
+  <rect width="720" height="360" fill="#fef2f2"/>
+  <text x="360" y="28" font-size="18" font-weight="700" text-anchor="middle" fill="#7f1d1d">Pedigree — X-linked Recessive Pattern</text>
+
+  <!-- Generation I -->
+  <g>
+    <text x="40" y="80" font-size="13" font-weight="700" fill="#7f1d1d">I</text>
+    <!-- Female: circle, unaffected white -->
+    <circle cx="220" cy="80" r="22" fill="white" stroke="#1f2937" stroke-width="2.5"/>
+    <text x="220" y="115" font-size="9" text-anchor="middle" fill="#1f2937">unaffected</text>
+    <text x="220" y="127" font-size="9" font-style="italic" text-anchor="middle" fill="#7f1d1d">XᴬXᵃ carrier</text>
+    <!-- Marriage line -->
+    <line x1="242" y1="80" x2="378" y2="80" stroke="#1f2937" stroke-width="2"/>
+    <!-- Male: square, unaffected -->
+    <rect x="378" y="58" width="44" height="44" fill="white" stroke="#1f2937" stroke-width="2.5"/>
+    <text x="400" y="115" font-size="9" text-anchor="middle" fill="#1f2937">unaffected</text>
+    <text x="400" y="127" font-size="9" font-style="italic" text-anchor="middle" fill="#7f1d1d">XᴬY</text>
+  </g>
+
+  <!-- Vertical line down -->
+  <line x1="310" y1="80" x2="310" y2="155" stroke="#1f2937" stroke-width="2"/>
+  <line x1="120" y1="155" x2="500" y2="155" stroke="#1f2937" stroke-width="2"/>
+
+  <!-- Generation II: 4 children -->
+  <g>
+    <text x="40" y="220" font-size="13" font-weight="700" fill="#7f1d1d">II</text>
+    <!-- Child 1: unaffected daughter -->
+    <line x1="120" y1="155" x2="120" y2="200" stroke="#1f2937" stroke-width="2"/>
+    <circle cx="120" cy="222" r="22" fill="white" stroke="#1f2937" stroke-width="2.5"/>
+    <text x="120" y="265" font-size="9" text-anchor="middle" fill="#1f2937">daughter</text>
+    <text x="120" y="277" font-size="9" font-style="italic" text-anchor="middle" fill="#1f2937">XᴬXᴬ</text>
+
+    <!-- Child 2: carrier daughter -->
+    <line x1="245" y1="155" x2="245" y2="200" stroke="#1f2937" stroke-width="2"/>
+    <circle cx="245" cy="222" r="22" fill="white" stroke="#1f2937" stroke-width="2.5"/>
+    <circle cx="245" cy="222" r="6" fill="#1f2937"/>
+    <text x="245" y="265" font-size="9" text-anchor="middle" fill="#1f2937">daughter</text>
+    <text x="245" y="277" font-size="9" font-style="italic" text-anchor="middle" fill="#7f1d1d">XᴬXᵃ carrier</text>
+
+    <!-- Child 3: unaffected son -->
+    <line x1="370" y1="155" x2="370" y2="200" stroke="#1f2937" stroke-width="2"/>
+    <rect x="348" y="200" width="44" height="44" fill="white" stroke="#1f2937" stroke-width="2.5"/>
+    <text x="370" y="265" font-size="9" text-anchor="middle" fill="#1f2937">son</text>
+    <text x="370" y="277" font-size="9" font-style="italic" text-anchor="middle" fill="#1f2937">XᴬY</text>
+
+    <!-- Child 4: AFFECTED son (filled square) -->
+    <line x1="500" y1="155" x2="500" y2="200" stroke="#1f2937" stroke-width="2"/>
+    <rect x="478" y="200" width="44" height="44" fill="#1f2937" stroke="#1f2937" stroke-width="2.5"/>
+    <text x="500" y="265" font-size="9" text-anchor="middle" fill="#7f1d1d" font-weight="700">AFFECTED son</text>
+    <text x="500" y="277" font-size="9" font-style="italic" text-anchor="middle" fill="#7f1d1d">XᵃY</text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(580,80)">
+    <text x="0" y="0" font-size="12" font-weight="700" fill="#7f1d1d">Symbols</text>
+    <line x1="0" y1="6" x2="100" y2="6" stroke="#7f1d1d"/>
+    <circle cx="12" cy="22" r="9" fill="white" stroke="#1f2937" stroke-width="2"/>
+    <text x="28" y="26" font-size="10" fill="#1f2937">female</text>
+    <rect x="3" y="40" width="18" height="18" fill="white" stroke="#1f2937" stroke-width="2"/>
+    <text x="28" y="54" font-size="10" fill="#1f2937">male</text>
+    <circle cx="12" cy="76" r="9" fill="white" stroke="#1f2937" stroke-width="2"/>
+    <circle cx="12" cy="76" r="3" fill="#1f2937"/>
+    <text x="28" y="80" font-size="10" fill="#1f2937">carrier</text>
+    <rect x="3" y="92" width="18" height="18" fill="#1f2937" stroke="#1f2937" stroke-width="2"/>
+    <text x="28" y="106" font-size="10" fill="#1f2937">affected</text>
+  </g>
+
+  <!-- Bottom note -->
+  <rect x="40" y="310" width="640" height="36" rx="4" fill="#fef3c7" stroke="#d97706"/>
+  <text x="360" y="328" font-size="11" font-weight="700" text-anchor="middle" fill="#92400e">X-linked recessive: AFFECTED MALES + carrier mothers</text>
+  <text x="360" y="342" font-size="10" font-style="italic" text-anchor="middle" fill="#92400e">e.g. red-green color blindness, hemophilia, Duchenne muscular dystrophy</text>
+</svg>

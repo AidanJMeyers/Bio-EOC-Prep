@@ -11,8 +11,7 @@ export default {
       title: 'The Properties of Water',
       subtitle: 'Why water is the medium of life',
       images: [
-        { src: 'ch02_biochemistry/01_officialeoc_p2.png', alt: 'Water molecule polarity diagram — source: Biology1-EOC.pdf p.2', caption: 'H₂O — partial negative O, partial positive H' },
-        { src: 'ch02_biochemistry/11_unit2_p1_i0.jpeg', alt: 'Water hydrogen bonding — source: Honors Bio Unit 2 study guide', caption: 'Hydrogen bonds between water molecules' }
+        { src: 'svg/water_molecule.svg', alt: 'Polar water molecule with partial charges and hydrogen bonding cluster', caption: 'Water is polar — partial negative oxygen, partial positive hydrogens — forming hydrogen bonds' }
       ],
       content: (
         <>
@@ -36,8 +35,7 @@ export default {
       title: 'The Four Macromolecules',
       subtitle: 'Carbs, lipids, proteins, nucleic acids',
       images: [
-        { src: 'ch02_biochemistry/02_officialeoc_p3.png', alt: 'Four macromolecules — source: Biology1-EOC.pdf p.3', caption: 'Comparison chart of biomolecules' },
-        { src: 'ch02_biochemistry/13_unit2_p1_i2.png', alt: 'Macromolecule types — source: Honors Bio Unit 2', caption: 'Building blocks and functions' }
+        { src: 'svg/macromolecules.svg', alt: 'The four classes of biological macromolecules with monomers and functions', caption: 'Carbohydrates, lipids, proteins, and nucleic acids' }
       ],
       content: (
         <>
@@ -46,7 +44,7 @@ export default {
             headers={['Class', 'Monomer', 'Function', 'Example']}
             rows={[
               ['Carbohydrates', 'Monosaccharide (glucose)', 'Quick energy, structure', 'Starch, glycogen, cellulose'],
-              ['Lipids', '(Glycerol + fatty acids — not a true monomer)', 'Long-term energy, membranes, signaling', 'Triglycerides, phospholipids, steroids'],
+              ['Lipids', '(Glycerol + fatty acids)', 'Long-term energy, membranes, signaling', 'Triglycerides, phospholipids, steroids'],
               ['Proteins', 'Amino acid', 'Enzymes, structure, transport, signaling', 'Hemoglobin, hexokinase, keratin'],
               ['Nucleic acids', 'Nucleotide', 'Genetic info storage and transfer', 'DNA, RNA'],
             ]}
@@ -60,7 +58,7 @@ export default {
       title: 'Protein Structure & Function',
       subtitle: 'Shape determines function',
       images: [
-        { src: 'ch02_biochemistry/16_unit2_p2_i0.png', alt: 'Protein structure levels — source: Honors Bio Unit 2', caption: 'Primary, secondary, tertiary, quaternary' }
+        { src: 'svg/protein_structure.svg', alt: 'Four levels of protein structure: primary, secondary, tertiary, quaternary', caption: 'Protein structure: primary → secondary → tertiary → quaternary' }
       ],
       content: (
         <>
@@ -80,7 +78,7 @@ export default {
       title: 'Enzymes',
       subtitle: 'Biological catalysts',
       images: [
-        { src: 'ch02_biochemistry/19_unit2_p2_i6.png', alt: 'Enzyme-substrate complex — source: Honors Bio Unit 2', caption: 'Lock-and-key / induced fit' }
+        { src: 'svg/enzyme_substrate.svg', alt: 'Enzyme-substrate complex induced fit with product release', caption: 'Enzyme + substrate → enzyme-substrate complex → products + reusable enzyme' }
       ],
       content: (
         <>
@@ -106,7 +104,7 @@ export default {
       content: (
         <>
           <p>Early Earth had a reducing atmosphere (no free O₂), abundant H₂O, methane, ammonia, and energy from lightning and UV. The <strong>Miller-Urey experiment (1953)</strong> showed that simple organic molecules — amino acids, sugars, lipid precursors — can form spontaneously under those conditions. Lipids in water can self-assemble into <strong>microspheres</strong> (lipid bubbles), the simplest precursor to a cell membrane.</p>
-          <Callout kind="warn" title="Why microspheres won't form on a meteorite">Lipids only assemble into microspheres in liquid water. Space lacks liquid water, so even though individual amino acids and lipids have been found on meteorites, microspheres haven\'t.</Callout>
+          <Callout kind="warn" title="Why microspheres won't form on a meteorite">Lipids only assemble into microspheres in liquid water. Space lacks liquid water, so even though individual amino acids and lipids have been found on meteorites, microspheres haven't.</Callout>
           <p>The leap from microspheres to a self-replicating cell required the <strong>RNA world</strong>: RNA can both store genetic information AND act as a catalyst (ribozymes). Once RNA could replicate and catalyze, evolution could begin.</p>
         </>
       )
@@ -186,7 +184,7 @@ export default {
       choices: [
         'Nucleic acids are building blocks of proteins; enzymes are building blocks of phospholipids.',
         'Nucleic acids contain the genetic code for protein synthesis; enzymes catalyze chemical reactions.',
-        'Nucleic acids inhibit reactions; enzymes provide structural support.',
+        'Nucleic acids inhibit reactions; enzymes provide structural support in cells.',
         'Nucleic acids transmit signals; enzymes convert carbs into lipids and proteins.'
       ],
       correct: 1,

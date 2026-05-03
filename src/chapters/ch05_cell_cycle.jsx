@@ -11,8 +11,7 @@ export default {
       title: 'The Cell Cycle',
       subtitle: 'Interphase + M phase',
       images: [
-        { src: 'ch05_cell_cycle/05_officialeoc_p4.png', alt: 'Cell cycle diagram — source: Biology1-EOC.pdf p.4', caption: 'The phases of the cell cycle' },
-        { src: 'ch05_cell_cycle/06_midterm_p5.png', alt: 'Cell cycle stages — source: Honors Bio Midterm', caption: 'G1 → S → G2 → M' }
+        { src: 'svg/cell_cycle.svg', alt: 'Cell cycle pie chart with G1, S, G2, M phases and checkpoints', caption: 'Interphase (G₁ → S → G₂) plus M phase; red dots are checkpoints' }
       ],
       content: (
         <>
@@ -32,8 +31,7 @@ export default {
       title: 'Mitosis: Producing Identical Daughters',
       subtitle: 'PMAT — one division, two diploid copies',
       images: [
-        { src: 'ch05_cell_cycle/07_unit6_p1_i0.jpeg', alt: 'Mitosis stages illustration — source: Honors Bio Unit 6', caption: 'Prophase / metaphase / anaphase / telophase' },
-        { src: 'ch05_cell_cycle/12_unit6_p2_i1.png', alt: 'Sister chromatids alignment — source: Honors Bio Unit 6', caption: 'Sister chromatids at metaphase' }
+        { src: 'svg/mitosis_meiosis.svg', alt: 'Mitosis vs meiosis side-by-side comparison: 1 division gives 2 diploid daughters; 2 divisions give 4 haploid gametes', caption: 'Mitosis: 1 division → 2 diploid identical daughters. Meiosis: 2 divisions → 4 haploid varied gametes.' }
       ],
       content: (
         <>
@@ -55,10 +53,7 @@ export default {
       id: 'meiosis',
       title: 'Meiosis: Producing Gametes',
       subtitle: 'Two divisions, four haploid cells',
-      images: [
-        { src: 'ch05_cell_cycle/02_eocbank_img14.jpeg', alt: 'Meiosis I/II stages — source: Bio EOC bank', caption: 'Two division cycles' },
-        { src: 'ch05_cell_cycle/16_unit6_p3_i3.jpeg', alt: 'Meiosis chromosome behavior — source: Honors Bio Unit 6', caption: 'Tetrads, crossing over, separation' }
-      ],
+      images: [],
       content: (
         <>
           <p>Meiosis happens in reproductive cells to produce <strong>gametes</strong> (sperm and egg). It includes <strong>two division rounds</strong>:</p>
@@ -82,9 +77,7 @@ export default {
       id: 'mitosis-vs-meiosis',
       title: 'Mitosis vs. Meiosis: Side-by-Side',
       subtitle: 'The single most-tested comparison',
-      images: [
-        { src: 'ch05_cell_cycle/04_eocbank_img31.jpeg', alt: 'Comparison chart — source: Bio EOC bank', caption: 'Side-by-side comparison' }
-      ],
+      images: [],
       content: (
         <>
           <Table

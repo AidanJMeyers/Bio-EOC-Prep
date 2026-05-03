@@ -11,7 +11,7 @@ export default {
       title: 'Natural Selection',
       subtitle: 'Darwin\'s mechanism for evolution',
       images: [
-        { src: 'ch08_evolution_classification/03_eocbank_img4.png', alt: 'Natural selection example — source: Bio EOC bank', caption: 'Variation, selection, inheritance' }
+        { src: 'svg/natural_selection.svg', alt: 'Peppered moth example: light moths predominate, then dark moths after pollution, then light again after clean-air laws', caption: 'Peppered moth: classic example of directional natural selection responding to environmental change' }
       ],
       content: (
         <>
@@ -32,8 +32,8 @@ export default {
       title: 'Evidence for Evolution',
       subtitle: 'Multiple independent lines',
       images: [
-        { src: 'ch08_evolution_classification/07_practicetest_p11.png', alt: 'Comparative anatomy — source: official practice test p.11', caption: 'Human and chimpanzee hands and feet' },
-        { src: 'ch08_evolution_classification/08_officialeoc_p10.png', alt: 'Hominid fossils — source: Biology1-EOC.pdf p.10', caption: 'Fossil hominids' }
+        { src: 'svg/hominid_evolution.svg', alt: 'Three hominid skulls in a time series: Australopithecus, Homo erectus, Homo sapiens', caption: 'Hominid skull series — transitional features support common ancestry' },
+        { src: 'ch08_evolution_classification/07_practicetest_p11.png', alt: 'Hand and foot comparison between chimpanzee and human — homologous structures', caption: 'Comparative anatomy: human and chimpanzee hand and foot bones (source: FL EOC practice test)' }
       ],
       content: (
         <>
@@ -57,9 +57,7 @@ export default {
       id: 'mechanisms-beyond',
       title: 'Mechanisms of Evolution Beyond Selection',
       subtitle: 'Genetic drift, gene flow, mutation',
-      images: [
-        { src: 'ch08_evolution_classification/04_eocbank_img5.png', alt: 'Mechanisms of evolution — source: Bio EOC bank', caption: 'Selection, drift, flow, mutation' }
-      ],
+      images: [],
       content: (
         <>
           <Table
@@ -79,9 +77,7 @@ export default {
       id: 'speciation',
       title: 'Speciation',
       subtitle: 'How one species becomes two',
-      images: [
-        { src: 'ch08_evolution_classification/05_eocbank_img7.jpeg', alt: 'Speciation diagram — source: Bio EOC bank', caption: 'Allopatric speciation' }
-      ],
+      images: [],
       content: (
         <>
           <p>A <strong>species</strong> (biological species concept) is a group of organisms that can interbreed and produce fertile offspring in nature. <strong>Speciation</strong> is the formation of new species, usually through:</p>

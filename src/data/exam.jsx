@@ -20,7 +20,7 @@ export const exam = [
     choices: ['It was published in a popular magazine.', 'It was peer reviewed and independently replicated.', 'It involved expensive equipment.', 'It was discussed by industry leaders.'],
     correct: 1, difficulty: 'E',
     explanation: 'Peer review + independent replication are the gold standard. Popular press, costly tools, and discussions are not validations.',
-    visual: Img('ch01_nature_of_science/01_officialeoc_p1.jpeg', 'FL Biology EOC reference', 'Florida Biology EOC')
+    visual: Img('svg/scientific_method.svg', 'Scientific method flowchart', 'Scientific method')
   },
   {
     chapter: 'Nature of Science', q: 'A scientist is testing whether a fertilizer increases plant growth. Which is the best CONTROL group?',
@@ -58,7 +58,7 @@ export const exam = [
     choices: ['High specific heat', 'Cohesion combined with adhesion', 'Universal solvent property', 'Lower density when frozen'],
     correct: 1, difficulty: 'M',
     explanation: 'Cohesion (water-water H-bonds) + adhesion (water-vessel walls) together produce capillary action.',
-    visual: Img('ch02_biochemistry/11_unit2_p1_i0.jpeg', 'Hydrogen bonds between water molecules', 'Hydrogen bonding')
+    visual: Img('svg/water_molecule.svg', 'Water polarity and hydrogen bonding', 'Water polarity')
   },
   {
     chapter: 'Biochemistry', q: 'Which of the four major macromolecules contains nitrogen and serves as enzymes, transporters, and structural components?',
@@ -66,7 +66,7 @@ export const exam = [
     choices: ['Carbohydrates', 'Lipids', 'Proteins', 'Nucleic acids only'],
     correct: 2, difficulty: 'E',
     explanation: 'Proteins are nitrogen-containing polymers of amino acids and serve as enzymes, transporters, structural components, etc.',
-    visual: Img('ch02_biochemistry/02_officialeoc_p3.png', 'Macromolecule comparison chart', 'Comparison of macromolecules')
+    visual: Img('svg/macromolecules.svg', 'Four classes of macromolecules', 'Four macromolecule classes')
   },
   {
     chapter: 'Biochemistry', q: 'An enzyme is heated above its optimal temperature. What happens?',
@@ -96,7 +96,7 @@ export const exam = [
       'Lipids contain phosphorus, carbs contain nitrogen.'],
     correct: 1, difficulty: 'M',
     explanation: 'Both have C, H, O. Carbs polymerize from sugars; lipids are not built from a single repeating unit.',
-    visual: Img('ch02_biochemistry/13_unit2_p1_i2.png', 'Macromolecule structures', 'The four macromolecule classes')
+    visual: Img('svg/macromolecules.svg', 'Four macromolecules with monomers and functions', 'Four macromolecule classes')
   },
   {
     chapter: 'Biochemistry', q: 'In which condition would large organic molecules most likely form during a Miller-Urey-style experiment?',
@@ -117,7 +117,7 @@ export const exam = [
     choices: ['Ability to move', 'Ability to reproduce', 'Presence of a nucleus', 'Presence of ribosomes'],
     correct: 2, difficulty: 'E',
     explanation: 'Eukaryotes have membrane-bound nuclei. All cells reproduce and have ribosomes; many cells move.',
-    visual: Img('ch03_cells/03_cells_image2.png', 'Eukaryotic cell — animal', 'Eukaryotic animal cell')
+    visual: Img('svg/animal_cell.svg', 'Labeled animal cell', 'Eukaryotic animal cell')
   },
   {
     chapter: 'Cells', q: 'Which best compares plant and animal cell structures?',
@@ -129,7 +129,7 @@ export const exam = [
       'Plant cells lack ribosomes.'],
     correct: 1, difficulty: 'M',
     explanation: 'Plants uniquely have walls, chloroplasts, central vacuole. They DO have mitochondria and ribosomes.',
-    visual: Img('ch03_cells/04_cells_image3.png', 'Plant vs animal cell side-by-side', 'Plant vs. animal cells')
+    visual: Img('svg/plant_cell.svg', 'Labeled plant cell', 'Plant cell extras')
   },
   {
     chapter: 'Cells', q: 'A red blood cell placed in pure water will',
@@ -137,7 +137,7 @@ export const exam = [
     choices: ['Shrivel from water loss.', 'Swell and burst due to osmotic water gain.', 'Become more salty inside.', 'Stay unchanged.'],
     correct: 1, difficulty: 'M',
     explanation: 'Pure water is hypotonic. Water flows into the cell by osmosis until it lyses.',
-    visual: Img('ch03_cells/16_unit4_p3_i0.jpeg', 'Tonicity diagram', 'Effects of tonicity on cells')
+    visual: Img('svg/tonicity.svg', 'Tonicity effects on cells', 'Hypotonic / isotonic / hypertonic')
   },
   {
     chapter: 'Cells', q: 'A protein destined for secretion outside the cell follows which path?',
@@ -149,7 +149,7 @@ export const exam = [
       'Nucleus → vacuole.'],
     correct: 1, difficulty: 'M',
     explanation: 'Secretory pathway: rough ER → Golgi → vesicle → exocytosis at plasma membrane.',
-    visual: Img('ch03_cells/15_unit4_p1_i1.png', 'Endomembrane flow', 'Endomembrane secretory pathway')
+    visual: Img('svg/animal_cell.svg', 'Labeled animal cell with rough ER and Golgi', 'Secretory pathway organelles')
   },
   {
     chapter: 'Cells', q: 'Active transport requires',
@@ -157,7 +157,7 @@ export const exam = [
     choices: ['No energy, just a concentration gradient.', 'Light energy.', 'ATP, because movement is against the gradient.', 'Cell wall pressure.'],
     correct: 2, difficulty: 'E',
     explanation: 'Moving substances against their concentration gradient requires energy from ATP — this is the defining feature of active transport.',
-    visual: Img('ch03_cells/19_unit4_p4_i1.png', 'Membrane proteins for transport', 'Channel and carrier proteins')
+    visual: Img('svg/membrane_transport.svg', 'Three modes of membrane transport', 'Membrane transport types')
   },
   {
     chapter: 'Cells', q: 'Which organelle would be MOST abundant in a muscle cell?',
@@ -165,7 +165,7 @@ export const exam = [
     choices: ['Lysosomes', 'Centrioles', 'Mitochondria', 'Smooth ER'],
     correct: 2, difficulty: 'E',
     explanation: 'Muscle cells have very high ATP demand → packed with mitochondria.',
-    visual: Img('ch03_cells/05_cells_image4.png', 'Organelle functions chart', 'Major organelles')
+    visual: Img('svg/animal_cell.svg', 'Labeled animal cell with major organelles', 'Major organelles')
   },
 
   // Chapter 4: Energy in Cells (6 questions)
@@ -179,7 +179,7 @@ export const exam = [
       'CO₂ + O₂ + H₂O + energy → CH₂O₅'],
     correct: 1, difficulty: 'E',
     explanation: 'Photosynthesis converts CO₂ + H₂O + light energy into glucose + O₂.',
-    visual: Img('ch04_energy_in_cells/01_unit5_p1_i0.png', 'Photosynthesis equation', 'Photosynthesis')
+    visual: Img('svg/photosynthesis_respiration.svg', 'Photosynthesis and cellular respiration', 'Photo / respiration cycle')
   },
   {
     chapter: 'Energy in Cells', q: 'What is the role of O₂ in cellular respiration?',
@@ -191,7 +191,7 @@ export const exam = [
       'Combines with lactate to form pyruvate.'],
     correct: 1, difficulty: 'M',
     explanation: 'O₂ is the terminal electron acceptor in the ETC; it becomes H₂O. Without O₂, the chain backs up and ATP production halts.',
-    visual: Img('ch04_energy_in_cells/04_unit5_image4.png', 'Cellular respiration overview', 'Three stages of respiration')
+    visual: Img('svg/photosynthesis_respiration.svg', 'Photosynthesis and respiration cycle', 'Photo / respiration cycle')
   },
   {
     chapter: 'Energy in Cells', q: 'What are the reactants of cellular respiration?',
@@ -199,7 +199,7 @@ export const exam = [
     choices: ['H₂O and O₂', 'Glucose and O₂', 'Glucose and CO₂', 'CO₂ and H₂O'],
     correct: 1, difficulty: 'E',
     explanation: 'Glucose + O₂ are the inputs of aerobic respiration; the outputs are CO₂, H₂O, and ATP.',
-    visual: Img('ch04_energy_in_cells/05_unit5_image5.png', 'Cellular respiration stages', 'Respiration overview')
+    visual: Img('svg/photosynthesis_respiration.svg', 'Cellular respiration in mitochondrion', 'Cellular respiration')
   },
   {
     chapter: 'Energy in Cells', q: 'A plant in total darkness will',
@@ -229,7 +229,7 @@ export const exam = [
     choices: ['Stroma of the chloroplast', 'Thylakoid membranes', 'Mitochondrial matrix', 'Cytoplasm'],
     correct: 1, difficulty: 'E',
     explanation: 'Thylakoid membranes house the photosystems and chlorophyll; the Calvin cycle occurs in the surrounding stroma.',
-    visual: Img('ch04_energy_in_cells/03_unit5_image3.png', 'Photosynthesis stages', 'Light vs dark reactions')
+    visual: Img('svg/photosynthesis_respiration.svg', 'Chloroplast — site of photosynthesis', 'Photosynthesis')
   },
 
   // Chapter 5: Cell Cycle (5 questions)
@@ -243,7 +243,7 @@ export const exam = [
       'Mitosis: 1 division → haploid gametes; meiosis: 2 divisions → diploid daughters.'],
     correct: 0, difficulty: 'M',
     explanation: 'Standard rule: mitosis = 1 round → 2 identical diploid daughters; meiosis = 2 rounds → 4 unique haploid gametes.',
-    visual: Img('ch05_cell_cycle/04_eocbank_img31.jpeg', 'Mitosis vs meiosis comparison', 'Mitosis vs. meiosis')
+    visual: Img('svg/mitosis_meiosis.svg', 'Mitosis vs meiosis comparison', 'Mitosis vs. meiosis')
   },
   {
     chapter: 'Cell Cycle', q: 'Which best explains why meiosis produces more genetic diversity than mitosis?',
@@ -255,7 +255,7 @@ export const exam = [
       'More daughter cells are produced.'],
     correct: 2, difficulty: 'M',
     explanation: 'Independent assortment + crossing over together produce immense combinatorial diversity in gametes — the basis of sibling differences.',
-    visual: Img('ch05_cell_cycle/02_eocbank_img14.jpeg', 'Meiosis stages', 'Meiosis I and II')
+    visual: Img('svg/mitosis_meiosis.svg', 'Meiosis I and II producing haploid gametes', 'Meiosis I + II')
   },
   {
     chapter: 'Cell Cycle', q: 'During which phase of mitosis do sister chromatids separate?',
@@ -263,7 +263,7 @@ export const exam = [
     choices: ['Prophase', 'Metaphase', 'Anaphase', 'Telophase'],
     correct: 2, difficulty: 'E',
     explanation: 'Anaphase: sister chromatids separate and are pulled to opposite poles by spindle fibers.',
-    visual: Img('ch05_cell_cycle/07_unit6_p1_i0.jpeg', 'Mitosis PMAT stages', 'Stages of mitosis')
+    visual: Img('svg/mitosis_meiosis.svg', 'Mitosis 1 division giving 2 diploid daughters', 'Mitosis flow')
   },
   {
     chapter: 'Cell Cycle', q: 'A human skin cell has 46 chromosomes. After mitosis, each daughter cell has',
@@ -271,7 +271,7 @@ export const exam = [
     choices: ['23', '46', '92', '0'],
     correct: 1, difficulty: 'E',
     explanation: 'Mitosis preserves chromosome number. 46 → 46 in each daughter.',
-    visual: Img('ch05_cell_cycle/05_officialeoc_p4.png', 'Cell cycle diagram', 'Cell cycle phases')
+    visual: Img('svg/cell_cycle.svg', 'Cell cycle pie chart with G1 S G2 M', 'Cell cycle phases')
   },
   {
     chapter: 'Cell Cycle', q: 'Cells with mutations in BOTH copies of the tumor suppressor gene p53 are most likely to',
@@ -292,7 +292,7 @@ export const exam = [
       'mRNA brings information to the nucleus.'],
     correct: 0, difficulty: 'M',
     explanation: 'mRNA carries the codon sequence; tRNA brings the matching amino acid. Different shapes for different jobs.',
-    visual: Img('ch06_dna_protein_synthesis/04_eocbank_img19.jpeg', 'Translation at ribosome', 'Codon-anticodon pairing')
+    visual: Img('svg/central_dogma.svg', 'Central dogma showing translation', 'Translation at ribosome')
   },
   {
     chapter: 'DNA & Proteins', q: 'A DNA template reads ATCAGTGAT. After transcription and translation, how many amino acids result?',
@@ -300,7 +300,7 @@ export const exam = [
     choices: ['5', '4', '2', '3'],
     correct: 3, difficulty: 'E',
     explanation: '9 nucleotides ÷ 3 = 3 codons = 3 amino acids.',
-    visual: Img('ch06_dna_protein_synthesis/06_officialeoc_p7.png', 'DNA double helix', 'DNA double helix')
+    visual: Img('svg/dna_helix.svg', 'DNA double helix with base pairs', 'DNA double helix')
   },
   {
     chapter: 'DNA & Proteins', q: 'In what order does information flow during gene expression?',
@@ -308,7 +308,7 @@ export const exam = [
     choices: ['Protein → DNA → mRNA', 'mRNA → DNA → Protein', 'DNA → mRNA → Protein', 'DNA → Protein → mRNA'],
     correct: 2, difficulty: 'E',
     explanation: 'The central dogma: DNA → mRNA (transcription) → Protein (translation).',
-    visual: Img('ch06_dna_protein_synthesis/03_eocbank_img18.png', 'Central dogma flow', 'DNA → RNA → Protein')
+    visual: Img('svg/central_dogma.svg', 'Central dogma DNA to mRNA to Protein', 'Central dogma')
   },
   {
     chapter: 'DNA & Proteins', q: 'During DNA replication, part of the DNA reads ACCGTAC and the new strand reads TGGAATG. The mismatches will',
@@ -320,7 +320,7 @@ export const exam = [
       'When the new strand is used as a template, the daughter strand will differ from the original — mutation propagated.'],
     correct: 3, difficulty: 'H',
     explanation: 'A replicated mismatch is copied forward to all descendants of the new strand.',
-    visual: Img('ch06_dna_protein_synthesis/02_eocbank_img17.jpeg', 'Replication fork', 'DNA replication')
+    visual: Img('svg/dna_helix.svg', 'DNA double helix ready to replicate', 'DNA replication source')
   },
   {
     chapter: 'DNA & Proteins', q: 'Which is a correct base pairing in DNA?',
@@ -328,7 +328,7 @@ export const exam = [
     choices: ['A-G', 'A-T', 'C-T', 'G-U'],
     correct: 1, difficulty: 'E',
     explanation: 'In DNA: A pairs with T, G pairs with C. (A-U is RNA.)',
-    visual: Img('ch06_dna_protein_synthesis/09_unit7_p1_i0.jpeg', 'DNA base pairing diagram', 'Complementary base pairing')
+    visual: Img('svg/dna_helix.svg', 'A-T and G-C base pairing', 'Base pairing rules')
   },
   {
     chapter: 'DNA & Proteins', q: 'A point mutation changes one base but the protein is unchanged. The most likely reason is',
@@ -353,7 +353,7 @@ export const exam = [
       'One parent has only blue-eyed parents.'],
     correct: 0, difficulty: 'E',
     explanation: 'Both parents must be Bb (heterozygous). 1/4 of offspring will be bb (blue).',
-    visual: Img('ch07_genetics/04_eocbank_img24.png', 'Punnett square', 'Punnett square')
+    visual: Img('svg/punnett_square.svg', 'Punnett square Bb x Bb', 'Bb x Bb Punnett')
   },
   {
     chapter: 'Genetics', q: 'Pea plants: white flowers (recessive) × purple (dominant). Generation: 89 purple : 31 white plants. Parents were',
@@ -372,7 +372,7 @@ export const exam = [
     choices: ['Autosomal dominant', 'Autosomal recessive', 'X-linked recessive', 'Mitochondrial'],
     correct: 2, difficulty: 'M',
     explanation: 'X-linked recessive: males (only one X) need only one copy to express; carrier mothers pass it.',
-    visual: Img('ch07_genetics/06_eocbank_img26.jpeg', 'X-linked recessive pedigree', 'X-linked recessive pattern')
+    visual: Img('svg/pedigree.svg', 'X-linked recessive pedigree with carrier mother', 'X-linked recessive pedigree')
   },
   {
     chapter: 'Genetics', q: 'Two cats heterozygous for polydactyly (Pp × Pp) have 12 kittens. About how many will have extra digits?',
@@ -380,7 +380,7 @@ export const exam = [
     choices: ['0', '6', '9', '12'],
     correct: 2, difficulty: 'M',
     explanation: '3/4 dominant phenotype × 12 = 9 kittens.',
-    visual: Img('ch07_genetics/01_eocbank_img21.png', 'Pea plant cross showing 3:1', '3:1 phenotype ratio')
+    visual: Img('svg/punnett_square.svg', 'Heterozygous cross producing 3:1 ratio', '3:1 phenotype ratio')
   },
   {
     chapter: 'Genetics', q: 'A type AB person × type O person can produce children of which blood type(s)?',
@@ -388,7 +388,7 @@ export const exam = [
     choices: ['Only AB', 'Only O', 'A or B', 'A, B, AB, or O'],
     correct: 2, difficulty: 'M',
     explanation: 'Iᴬ Iᴮ × ii → ½ Iᴬi (A) and ½ Iᴮi (B). Neither AB nor O is possible.',
-    visual: Img('ch07_genetics/05_eocbank_img25.jpeg', 'Test cross example', 'Test cross')
+    visual: Img('svg/punnett_square.svg', 'Punnett square heterozygous cross', 'Punnett square')
   },
   {
     chapter: 'Genetics', q: 'A red snapdragon (RR) × white (WW) → all pink offspring. This is',
@@ -409,7 +409,7 @@ export const exam = [
       'It explains why hominids were inferior.'],
     correct: 2, difficulty: 'M',
     explanation: 'Anatomical similarities — homologous structures — point to descent from a shared ancestor.',
-    visual: Img('ch08_evolution_classification/07_practicetest_p11.png', 'Hominid hand and feet comparison', 'Hominid comparative anatomy')
+    visual: Img('ch08_evolution_classification/07_practicetest_p11.png', 'Hand and foot comparison: chimpanzee vs. human (FL EOC practice test)', 'Comparative anatomy')
   },
   {
     chapter: 'Evolution', q: 'Most hibiscus on a Pacific island were killed by a lava flow. Surviving plants are mostly orange — even though other islands have a mix. The best explanation is',
@@ -421,7 +421,7 @@ export const exam = [
       'Orange plants resisted lava better than white.'],
     correct: 2, difficulty: 'M',
     explanation: 'Random survival of a small subset is a population bottleneck — genetic drift, not selection.',
-    visual: Img('ch08_evolution_classification/03_eocbank_img4.png', 'Natural selection illustration', 'Variation, selection, inheritance')
+    visual: Img('svg/natural_selection.svg', 'Peppered moth natural selection', 'Natural selection — peppered moths')
   },
   {
     chapter: 'Evolution', q: 'A snake species is introduced to an ecosystem with no natural predators. The most likely long-term effect is',
@@ -444,7 +444,7 @@ export const exam = [
       'Reduced genetic variation, leaving them vulnerable to disease.'],
     correct: 3, difficulty: 'M',
     explanation: 'Small isolated populations lose variation through drift and inbreeding — they\'re fragile to disease and environmental change.',
-    visual: Img('ch08_evolution_classification/05_eocbank_img7.jpeg', 'Speciation diagram', 'Allopatric isolation')
+    visual: Img('svg/hominid_evolution.svg', 'Hominid skull series', 'Hominid skulls')
   },
   {
     chapter: 'Evolution', q: 'Antibiotic resistance in bacteria is best explained by',
@@ -456,7 +456,7 @@ export const exam = [
       'Wrong antibiotics are prescribed.'],
     correct: 1, difficulty: 'M',
     explanation: 'Variation existed; antibiotic = selection pressure; resistant individuals reproduce; population shifts. Bacteria do not "learn".',
-    visual: Img('ch08_evolution_classification/04_eocbank_img5.png', 'Mechanisms of evolution diagram', 'Evolutionary mechanisms')
+    visual: Img('svg/natural_selection.svg', 'Natural selection example', 'Natural selection')
   },
   {
     chapter: 'Evolution', q: 'Which best argues for separating Archaea and Bacteria into their own domains?',
@@ -477,7 +477,7 @@ export const exam = [
     choices: ['Phytoplankton', 'Krill', 'Fish', 'Seal'],
     correct: 3, difficulty: 'E',
     explanation: '~10% of energy passes to each higher trophic level. By the time we reach the seal, most energy has been lost as heat.',
-    visual: Img('ch09_ecology/10_practicetest_p8.png', 'Marine food web', 'Marine food web')
+    visual: Img('svg/food_web.svg', 'Marine food web with energy flow', 'Marine food web')
   },
   {
     chapter: 'Ecology', q: 'Which correctly traces energy through a marine food web?',
@@ -489,7 +489,7 @@ export const exam = [
       'Zooplankton → phytoplankton → krill → squid'],
     correct: 1, difficulty: 'E',
     explanation: 'Energy starts with producers (phytoplankton) and flows up the trophic levels.',
-    visual: Img('ch09_ecology/11_practicetest_p9.png', 'Food web diagram', 'Trophic flow')
+    visual: Img('svg/food_web.svg', 'Marine food web showing trophic levels', 'Trophic levels')
   },
   {
     chapter: 'Ecology', q: 'When a population reaches carrying capacity, the birth and death rates are',
@@ -497,7 +497,7 @@ export const exam = [
     choices: ['Approximately equal', 'Crashing', 'Density dependent', 'Density independent'],
     correct: 0, difficulty: 'E',
     explanation: 'At K, births ≈ deaths. The population stabilizes around the carrying capacity.',
-    visual: Img('ch09_ecology/04_eocbank_img28.jpeg', 'Population growth curve', 'Logistic vs exponential growth')
+    visual: Img('svg/energy_pyramid.svg', 'Energy pyramid demonstrating 10% rule', 'Energy pyramid')
   },
   {
     chapter: 'Ecology', q: 'Rainbow trout need ≥6.0 mg/L dissolved O₂. A stream has only 5.5 mg/L. Which action best raises O₂?',
@@ -520,7 +520,7 @@ export const exam = [
       'Seasonal temperature changes kill some individuals.'],
     correct: 3, difficulty: 'M',
     explanation: 'Abiotic = non-living. Temperature is non-living. Parasites, predators, and competition are biotic.',
-    visual: Img('ch09_ecology/01_eocbank_img1.jpeg', 'Carbon cycle / ecosystem diagram', 'Ecosystem cycles')
+    visual: Img('svg/food_web.svg', 'Food web with biotic and abiotic factors', 'Food web')
   },
   {
     chapter: 'Ecology', q: 'Why is human-produced CO₂ a problem despite being needed for photosynthesis?',
@@ -532,7 +532,7 @@ export const exam = [
       'It causes uncontrolled photosynthesis.'],
     correct: 0, difficulty: 'E',
     explanation: 'Excess CO₂ enhances the greenhouse effect, raising global temperatures and altering climate.',
-    visual: Img('ch09_ecology/03_eocbank_img2.jpeg', 'Human impact on environment', 'Human ecological impact')
+    visual: Img('svg/energy_pyramid.svg', 'Energy pyramid', 'Energy pyramid')
   },
   {
     chapter: 'Ecology', q: 'Which choice is most helpful for sustainability?',
@@ -557,7 +557,7 @@ export const exam = [
       'Body temp ↑ and fluids ↑ → blood viscosity ↑.'],
     correct: 1, difficulty: 'M',
     explanation: 'Less fluid → lower blood volume → heart compensates with higher rate. Higher temperature also raises metabolic demand.',
-    visual: Img('ch10_human_body/01_practicetest_p17.png', 'Cardiovascular system', 'Cardiovascular system')
+    visual: Img('svg/circulatory.svg', 'Cardiovascular system pulmonary and systemic circuits', 'Cardiovascular system')
   },
   {
     chapter: 'Human Body', q: 'A patient has high blood pressure and atherosclerosis in the coronary artery. The most likely future condition is',
@@ -602,7 +602,7 @@ export const exam = [
       'Other tissues transport water normally; processes continue.'],
     correct: 2, difficulty: 'H',
     explanation: 'Phloem moves sugars from sources to sinks. Without it, roots and stems get no glucose to fuel respiration.',
-    visual: Img('ch10_human_body/03_unit12_p3_i0.jpeg', 'Leaf cross-section', 'Leaf vascular tissue')
+    visual: Img('svg/plant_cell.svg', 'Plant cell with chloroplasts', 'Plant cell')
   },
   {
     chapter: 'Human Body', q: 'A plant has stomata, xylem, phloem, male pollen cones, and female seed cones. Most likely classification?',
@@ -610,7 +610,7 @@ export const exam = [
     choices: ['Gymnosperm (Coniferophyta)', 'Bryophyte', 'Seedless vascular', 'Angiosperm'],
     correct: 0, difficulty: 'M',
     explanation: 'Seeds in cones (no flowers) + vascular tissue = gymnosperm. Conifers are the largest gymnosperm group.',
-    visual: Img('ch10_human_body/02_unit12_p1_i0.png', 'Plant anatomy with vascular tissue', 'Plant anatomy')
+    visual: Img('svg/plant_cell.svg', 'Plant cell showing plant-only organelles', 'Plant cell')
   },
   {
     chapter: 'Human Body', q: 'Why is normal scrotal temperature lower than core body temperature?',

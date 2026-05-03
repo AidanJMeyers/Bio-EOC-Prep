@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" font-family="Inter, system-ui, sans-serif">
+  <rect width="720" height="440" fill="#f0fdf4"/>
+  <text x="360" y="28" font-size="18" font-weight="700" text-anchor="middle" fill="#14532d">Plant Cell — extras vs. animal cell</text>
+
+  <!-- Cell wall (rectangular) -->
+  <rect x="80" y="60" width="560" height="340" rx="14" fill="#86efac" stroke="#14532d" stroke-width="6"/>
+  <text x="360" y="82" font-size="11" font-weight="700" text-anchor="middle" fill="#14532d">Cell wall (cellulose) — rigid, outer</text>
+
+  <!-- Plasma membrane just inside -->
+  <rect x="92" y="93" width="536" height="296" rx="10" fill="#dcfce7" stroke="#166534" stroke-width="2" stroke-dasharray="3 2"/>
+
+  <!-- Large central vacuole (dominates cell) -->
+  <ellipse cx="370" cy="240" rx="200" ry="110" fill="#bae6fd" stroke="#0369a1" stroke-width="2.5"/>
+  <text x="370" y="246" font-size="13" font-weight="700" text-anchor="middle" fill="#0c4a6e">Large central vacuole</text>
+  <text x="370" y="262" font-size="10" font-style="italic" text-anchor="middle" fill="#0c4a6e">water + solute storage; turgor pressure</text>
+
+  <!-- Chloroplasts (around the periphery) -->
+  <g>
+    <ellipse cx="160" cy="170" rx="22" ry="12" fill="#22c55e" stroke="#14532d" stroke-width="1.5"/>
+    <line x1="148" y1="170" x2="172" y2="170" stroke="#15803d" stroke-width="1"/>
+    <line x1="148" y1="166" x2="172" y2="166" stroke="#15803d" stroke-width="1"/>
+    <line x1="148" y1="174" x2="172" y2="174" stroke="#15803d" stroke-width="1"/>
+  </g>
+  <g>
+    <ellipse cx="200" cy="335" rx="22" ry="12" fill="#22c55e" stroke="#14532d" stroke-width="1.5"/>
+    <line x1="188" y1="335" x2="212" y2="335" stroke="#15803d" stroke-width="1"/>
+    <line x1="188" y1="331" x2="212" y2="331" stroke="#15803d" stroke-width="1"/>
+  </g>
+  <g>
+    <ellipse cx="560" cy="160" rx="22" ry="12" fill="#22c55e" stroke="#14532d" stroke-width="1.5"/>
+    <line x1="548" y1="160" x2="572" y2="160" stroke="#15803d" stroke-width="1"/>
+  </g>
+  <g>
+    <ellipse cx="580" cy="350" rx="22" ry="12" fill="#22c55e" stroke="#14532d" stroke-width="1.5"/>
+    <line x1="568" y1="350" x2="592" y2="350" stroke="#15803d" stroke-width="1"/>
+  </g>
+  <text x="160" y="145" font-size="11" font-weight="700" text-anchor="middle" fill="#14532d">Chloroplasts</text>
+  <text x="160" y="158" font-size="9" font-style="italic" text-anchor="middle" fill="#14532d">(photosynthesis)</text>
+
+  <!-- Nucleus -->
+  <circle cx="155" cy="240" r="30" fill="#a78bfa" stroke="#5b21b6" stroke-width="2"/>
+  <circle cx="155" cy="240" r="8" fill="#5b21b6"/>
+  <text x="155" y="200" font-size="11" font-weight="700" text-anchor="middle" fill="#5b21b6">Nucleus</text>
+
+  <!-- Mitochondria (still present!) -->
+  <g transform="translate(580,235)">
+    <ellipse cx="0" cy="0" rx="30" ry="14" fill="#fb7185" stroke="#881337" stroke-width="2"/>
+    <path d="M -22 -6 Q -18 0 -22 6 M -10 -8 Q -6 0 -10 8 M 2 -8 Q 6 0 2 8 M 14 -8 Q 18 0 14 8" stroke="#881337" stroke-width="1.5" fill="none"/>
+  </g>
+  <text x="610" y="200" font-size="11" font-weight="700" text-anchor="middle" fill="#881337">Mitochondrion</text>
+  <text x="610" y="213" font-size="9" font-style="italic" text-anchor="middle" fill="#881337">(yes — plants too)</text>
+
+  <!-- Bottom callout -->
+  <rect x="80" y="412" width="560" height="22" fill="#fef3c7" stroke="#d97706" rx="4"/>
+  <text x="360" y="427" font-size="11" font-weight="700" text-anchor="middle" fill="#92400e">Plant-only: cell wall · chloroplasts · large central vacuole</text>
+</svg>

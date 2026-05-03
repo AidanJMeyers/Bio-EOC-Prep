@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="Inter, system-ui, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0369a1"/>
+    </marker>
+    <linearGradient id="g1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e0f2fe"/>
+      <stop offset="1" stop-color="#bae6fd"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="360" fill="#f8fafc"/>
+  <text x="360" y="30" font-size="20" font-weight="700" text-anchor="middle" fill="#0c4a6e">The Scientific Method</text>
+
+  <!-- 6 boxes in a flow -->
+  <g>
+    <rect x="20" y="80" width="140" height="60" rx="10" fill="url(#g1)" stroke="#0369a1" stroke-width="2"/>
+    <text x="90" y="105" font-size="13" font-weight="700" text-anchor="middle" fill="#0c4a6e">1. Observe &amp;</text>
+    <text x="90" y="123" font-size="13" font-weight="700" text-anchor="middle" fill="#0c4a6e">Ask question</text>
+  </g>
+  <g>
+    <rect x="190" y="80" width="140" height="60" rx="10" fill="url(#g1)" stroke="#0369a1" stroke-width="2"/>
+    <text x="260" y="105" font-size="13" font-weight="700" text-anchor="middle" fill="#0c4a6e">2. Form testable</text>
+    <text x="260" y="123" font-size="13" font-weight="700" text-anchor="middle" fill="#0c4a6e">hypothesis</text>
+  </g>
+  <g>
+    <rect x="360" y="80" width="140" height="60" rx="10" fill="url(#g1)" stroke="#0369a1" stroke-width="2"/>
+    <text x="430" y="105" font-size="13" font-weight="700" text-anchor="middle" fill="#0c4a6e">3. Design</text>
+    <text x="430" y="123" font-size="13" font-weight="700" text-anchor="middle" fill="#0c4a6e">controlled experiment</text>
+  </g>
+  <g>
+    <rect x="530" y="80" width="170" height="60" rx="10" fill="url(#g1)" stroke="#0369a1" stroke-width="2"/>
+    <text x="615" y="105" font-size="13" font-weight="700" text-anchor="middle" fill="#0c4a6e">4. Collect &amp; analyze</text>
+    <text x="615" y="123" font-size="13" font-weight="700" text-anchor="middle" fill="#0c4a6e">data</text>
+  </g>
+  <g>
+    <rect x="190" y="200" width="140" height="60" rx="10" fill="url(#g1)" stroke="#0369a1" stroke-width="2"/>
+    <text x="260" y="225" font-size="13" font-weight="700" text-anchor="middle" fill="#0c4a6e">5. Draw conclusion</text>
+    <text x="260" y="243" font-size="13" font-weight="700" text-anchor="middle" fill="#0c4a6e">(support/reject)</text>
+  </g>
+  <g>
+    <rect x="360" y="200" width="140" height="60" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+    <text x="430" y="225" font-size="13" font-weight="700" text-anchor="middle" fill="#92400e">6. Peer review</text>
+    <text x="430" y="243" font-size="13" font-weight="700" text-anchor="middle" fill="#92400e">+ replicate</text>
+  </g>
+
+  <!-- Arrows -->
+  <line x1="160" y1="110" x2="190" y2="110" stroke="#0369a1" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="330" y1="110" x2="360" y2="110" stroke="#0369a1" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="500" y1="110" x2="530" y2="110" stroke="#0369a1" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <path d="M 615 140 Q 615 175 500 175 L 330 175 Q 260 175 260 200" fill="none" stroke="#0369a1" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="330" y1="230" x2="360" y2="230" stroke="#0369a1" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <!-- iterative loop -->
+  <path d="M 430 260 Q 430 320 90 320 Q 90 285 90 140" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+  <text x="260" y="335" font-size="11" font-style="italic" text-anchor="middle" fill="#475569">Iterate: refine hypothesis &amp; repeat</text>
+
+  <!-- IV/DV/CV legend -->
+  <g transform="translate(20,200)">
+    <rect width="140" height="110" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+    <text x="70" y="20" font-size="12" font-weight="700" text-anchor="middle" fill="#065f46">Variable types</text>
+    <text x="10" y="42" font-size="11" fill="#065f46"><tspan font-weight="700">IV</tspan> — change</text>
+    <text x="10" y="62" font-size="11" fill="#065f46"><tspan font-weight="700">DV</tspan> — measure</text>
+    <text x="10" y="82" font-size="11" fill="#065f46"><tspan font-weight="700">CV</tspan> — held constant</text>
+    <text x="10" y="102" font-size="10" font-style="italic" fill="#047857">Need a control group</text>
+  </g>
+</svg>

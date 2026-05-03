@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="Inter, system-ui, sans-serif">
+  <rect width="720" height="420" fill="#eff6ff"/>
+  <text x="360" y="28" font-size="18" font-weight="700" text-anchor="middle" fill="#0c4a6e">Marine Food Web — Energy Flow</text>
+
+  <defs>
+    <marker id="fwArr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0369a1"/>
+    </marker>
+  </defs>
+
+  <!-- Producer: phytoplankton -->
+  <g transform="translate(360,360)">
+    <ellipse rx="80" ry="22" fill="#bbf7d0" stroke="#14532d" stroke-width="2"/>
+    <text font-size="13" font-weight="700" text-anchor="middle" fill="#14532d" y="5">Phytoplankton</text>
+    <text font-size="9" text-anchor="middle" fill="#14532d" y="20">PRODUCER · ~100% energy</text>
+  </g>
+
+  <!-- Primary consumers: krill + zooplankton -->
+  <g transform="translate(180,260)">
+    <ellipse rx="70" ry="22" fill="#fde68a" stroke="#854d0e" stroke-width="2"/>
+    <text font-size="12" font-weight="700" text-anchor="middle" fill="#854d0e" y="5">Zooplankton</text>
+    <text font-size="9" text-anchor="middle" fill="#854d0e" y="20">primary · ~10%</text>
+  </g>
+  <g transform="translate(540,260)">
+    <ellipse rx="70" ry="22" fill="#fde68a" stroke="#854d0e" stroke-width="2"/>
+    <text font-size="12" font-weight="700" text-anchor="middle" fill="#854d0e" y="5">Krill</text>
+    <text font-size="9" text-anchor="middle" fill="#854d0e" y="20">primary · ~10%</text>
+  </g>
+
+  <!-- Secondary consumers: small fish, squid -->
+  <g transform="translate(180,170)">
+    <ellipse rx="70" ry="22" fill="#fdba74" stroke="#7c2d12" stroke-width="2"/>
+    <text font-size="12" font-weight="700" text-anchor="middle" fill="#7c2d12" y="5">Small fish</text>
+    <text font-size="9" text-anchor="middle" fill="#7c2d12" y="20">secondary · ~1%</text>
+  </g>
+  <g transform="translate(360,170)">
+    <ellipse rx="70" ry="22" fill="#fdba74" stroke="#7c2d12" stroke-width="2"/>
+    <text font-size="12" font-weight="700" text-anchor="middle" fill="#7c2d12" y="5">Squid</text>
+    <text font-size="9" text-anchor="middle" fill="#7c2d12" y="20">secondary · ~1%</text>
+  </g>
+  <g transform="translate(540,170)">
+    <ellipse rx="70" ry="22" fill="#fdba74" stroke="#7c2d12" stroke-width="2"/>
+    <text font-size="12" font-weight="700" text-anchor="middle" fill="#7c2d12" y="5">Penguin</text>
+    <text font-size="9" text-anchor="middle" fill="#7c2d12" y="20">secondary · ~1%</text>
+  </g>
+
+  <!-- Tertiary: seabirds + seal -->
+  <g transform="translate(220,80)">
+    <ellipse rx="70" ry="22" fill="#fca5a5" stroke="#7f1d1d" stroke-width="2"/>
+    <text font-size="12" font-weight="700" text-anchor="middle" fill="#7f1d1d" y="5">Sea birds</text>
+    <text font-size="9" text-anchor="middle" fill="#7f1d1d" y="20">tertiary · ~0.1%</text>
+  </g>
+  <g transform="translate(500,80)">
+    <ellipse rx="70" ry="22" fill="#fca5a5" stroke="#7f1d1d" stroke-width="2"/>
+    <text font-size="12" font-weight="700" text-anchor="middle" fill="#7f1d1d" y="5">Seal</text>
+    <text font-size="9" text-anchor="middle" fill="#7f1d1d" y="20">tertiary · ~0.1%</text>
+  </g>
+
+  <!-- Arrows from producer up -->
+  <g stroke="#0369a1" stroke-width="2" fill="none">
+    <path d="M 300 350 Q 240 310 195 285" marker-end="url(#fwArr)"/>
+    <path d="M 420 350 Q 480 310 525 285" marker-end="url(#fwArr)"/>
+  </g>
+  <!-- Zoo → small fish, squid -->
+  <g stroke="#0369a1" stroke-width="2" fill="none">
+    <path d="M 175 240 L 180 195" marker-end="url(#fwArr)"/>
+    <path d="M 220 240 Q 290 210 340 195" marker-end="url(#fwArr)"/>
+  </g>
+  <!-- Krill → squid, penguin, small fish -->
+  <g stroke="#0369a1" stroke-width="2" fill="none">
+    <path d="M 540 240 L 540 195" marker-end="url(#fwArr)"/>
+    <path d="M 510 240 Q 440 210 380 195" marker-end="url(#fwArr)"/>
+    <path d="M 478 250 Q 350 230 220 195" marker-end="url(#fwArr)"/>
+  </g>
+  <!-- Small fish, squid → seabirds, seal -->
+  <g stroke="#0369a1" stroke-width="2" fill="none">
+    <path d="M 195 145 L 215 105" marker-end="url(#fwArr)"/>
+    <path d="M 360 145 Q 290 120 240 105" marker-end="url(#fwArr)"/>
+    <path d="M 360 145 Q 430 120 480 105" marker-end="url(#fwArr)"/>
+    <path d="M 540 145 L 510 105" marker-end="url(#fwArr)"/>
+  </g>
+
+  <!-- 10% rule note -->
+  <rect x="40" y="385" width="320" height="28" fill="#fef3c7" stroke="#d97706" rx="4"/>
+  <text x="200" y="404" font-size="11" font-weight="700" text-anchor="middle" fill="#92400e">10% rule: ~90% energy lost as heat at each level</text>
+</svg>

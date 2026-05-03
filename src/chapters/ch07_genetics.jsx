@@ -11,7 +11,7 @@ export default {
       title: 'Mendel\'s Laws',
       subtitle: 'Segregation and independent assortment',
       images: [
-        { src: 'ch07_genetics/01_eocbank_img21.png', alt: 'Mendel\'s pea-plant cross — source: Bio EOC bank', caption: 'F₁ × F₁ produces 3:1 ratio' }
+        { src: 'svg/punnett_square.svg', alt: 'Punnett square for Bb x Bb showing 3:1 phenotype ratio and 1:2:1 genotype ratio', caption: 'Heterozygous × heterozygous (Bb × Bb) → 3:1 phenotype ratio' }
       ],
       content: (
         <>
@@ -52,10 +52,7 @@ export default {
       id: 'punnett',
       title: 'Punnett Squares',
       subtitle: 'Predicting offspring',
-      images: [
-        { src: 'ch07_genetics/04_eocbank_img24.png', alt: 'Punnett square — source: Bio EOC bank', caption: 'Monohybrid Punnett square' },
-        { src: 'ch07_genetics/05_eocbank_img25.jpeg', alt: 'Test cross — source: Bio EOC bank', caption: 'Test cross example' }
-      ],
+      images: [],
       content: (
         <>
           <p>A Punnett square predicts offspring genotype/phenotype probabilities. For Aa × Aa:</p>
@@ -76,7 +73,7 @@ export default {
       title: 'Sex-Linked Inheritance',
       subtitle: 'Genes on the X chromosome',
       images: [
-        { src: 'ch07_genetics/06_eocbank_img26.jpeg', alt: 'X-linked recessive trait pedigree — source: Bio EOC bank', caption: 'X-linked recessive: more affected males' }
+        { src: 'svg/pedigree.svg', alt: 'X-linked recessive pedigree showing carrier mother and affected son', caption: 'Carrier mother + unaffected father → 50% chance affected son' }
       ],
       content: (
         <>
@@ -97,9 +94,7 @@ export default {
       id: 'pedigrees-modes',
       title: 'Pedigrees & Modes of Inheritance',
       subtitle: 'Reading family trees',
-      images: [
-        { src: 'ch07_genetics/07_eocbank_img27.jpeg', alt: 'Pedigree analysis example — source: Bio EOC bank', caption: 'Sample pedigree chart' }
-      ],
+      images: [],
       content: (
         <>
           <Table
