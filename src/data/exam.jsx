@@ -95,7 +95,8 @@ export const exam = [
       'Both contain N; lipids contain S.',
       'Lipids contain phosphorus, carbs contain nitrogen.'],
     correct: 1, difficulty: 'M',
-    explanation: 'Both have C, H, O. Carbs polymerize from sugars; lipids are not built from a single repeating unit.'
+    explanation: 'Both have C, H, O. Carbs polymerize from sugars; lipids are not built from a single repeating unit.',
+    visual: Img('ch02_biochemistry/13_unit2_p1_i2.png', 'Macromolecule structures', 'The four macromolecule classes')
   },
   {
     chapter: 'Biochemistry', q: 'In which condition would large organic molecules most likely form during a Miller-Urey-style experiment?',
@@ -155,14 +156,16 @@ export const exam = [
     type: 'mcq',
     choices: ['No energy, just a concentration gradient.', 'Light energy.', 'ATP, because movement is against the gradient.', 'Cell wall pressure.'],
     correct: 2, difficulty: 'E',
-    explanation: 'Moving substances against their concentration gradient requires energy from ATP — this is the defining feature of active transport.'
+    explanation: 'Moving substances against their concentration gradient requires energy from ATP — this is the defining feature of active transport.',
+    visual: Img('ch03_cells/19_unit4_p4_i1.png', 'Membrane proteins for transport', 'Channel and carrier proteins')
   },
   {
     chapter: 'Cells', q: 'Which organelle would be MOST abundant in a muscle cell?',
     type: 'mcq',
     choices: ['Lysosomes', 'Centrioles', 'Mitochondria', 'Smooth ER'],
     correct: 2, difficulty: 'E',
-    explanation: 'Muscle cells have very high ATP demand → packed with mitochondria.'
+    explanation: 'Muscle cells have very high ATP demand → packed with mitochondria.',
+    visual: Img('ch03_cells/05_cells_image4.png', 'Organelle functions chart', 'Major organelles')
   },
 
   // Chapter 4: Energy in Cells (6 questions)
@@ -195,7 +198,8 @@ export const exam = [
     type: 'mcq',
     choices: ['H₂O and O₂', 'Glucose and O₂', 'Glucose and CO₂', 'CO₂ and H₂O'],
     correct: 1, difficulty: 'E',
-    explanation: 'Glucose + O₂ are the inputs of aerobic respiration; the outputs are CO₂, H₂O, and ATP.'
+    explanation: 'Glucose + O₂ are the inputs of aerobic respiration; the outputs are CO₂, H₂O, and ATP.',
+    visual: Img('ch04_energy_in_cells/05_unit5_image5.png', 'Cellular respiration stages', 'Respiration overview')
   },
   {
     chapter: 'Energy in Cells', q: 'A plant in total darkness will',
@@ -258,14 +262,16 @@ export const exam = [
     type: 'mcq',
     choices: ['Prophase', 'Metaphase', 'Anaphase', 'Telophase'],
     correct: 2, difficulty: 'E',
-    explanation: 'Anaphase: sister chromatids separate and are pulled to opposite poles by spindle fibers.'
+    explanation: 'Anaphase: sister chromatids separate and are pulled to opposite poles by spindle fibers.',
+    visual: Img('ch05_cell_cycle/07_unit6_p1_i0.jpeg', 'Mitosis PMAT stages', 'Stages of mitosis')
   },
   {
     chapter: 'Cell Cycle', q: 'A human skin cell has 46 chromosomes. After mitosis, each daughter cell has',
     type: 'mcq',
     choices: ['23', '46', '92', '0'],
     correct: 1, difficulty: 'E',
-    explanation: 'Mitosis preserves chromosome number. 46 → 46 in each daughter.'
+    explanation: 'Mitosis preserves chromosome number. 46 → 46 in each daughter.',
+    visual: Img('ch05_cell_cycle/05_officialeoc_p4.png', 'Cell cycle diagram', 'Cell cycle phases')
   },
   {
     chapter: 'Cell Cycle', q: 'Cells with mutations in BOTH copies of the tumor suppressor gene p53 are most likely to',
@@ -293,7 +299,8 @@ export const exam = [
     type: 'mcq',
     choices: ['5', '4', '2', '3'],
     correct: 3, difficulty: 'E',
-    explanation: '9 nucleotides ÷ 3 = 3 codons = 3 amino acids.'
+    explanation: '9 nucleotides ÷ 3 = 3 codons = 3 amino acids.',
+    visual: Img('ch06_dna_protein_synthesis/06_officialeoc_p7.png', 'DNA double helix', 'DNA double helix')
   },
   {
     chapter: 'DNA & Proteins', q: 'In what order does information flow during gene expression?',
@@ -320,7 +327,8 @@ export const exam = [
     type: 'mcq',
     choices: ['A-G', 'A-T', 'C-T', 'G-U'],
     correct: 1, difficulty: 'E',
-    explanation: 'In DNA: A pairs with T, G pairs with C. (A-U is RNA.)'
+    explanation: 'In DNA: A pairs with T, G pairs with C. (A-U is RNA.)',
+    visual: Img('ch06_dna_protein_synthesis/09_unit7_p1_i0.jpeg', 'DNA base pairing diagram', 'Complementary base pairing')
   },
   {
     chapter: 'DNA & Proteins', q: 'A point mutation changes one base but the protein is unchanged. The most likely reason is',
@@ -371,14 +379,16 @@ export const exam = [
     type: 'mcq',
     choices: ['0', '6', '9', '12'],
     correct: 2, difficulty: 'M',
-    explanation: '3/4 dominant phenotype × 12 = 9 kittens.'
+    explanation: '3/4 dominant phenotype × 12 = 9 kittens.',
+    visual: Img('ch07_genetics/01_eocbank_img21.png', 'Pea plant cross showing 3:1', '3:1 phenotype ratio')
   },
   {
     chapter: 'Genetics', q: 'A type AB person × type O person can produce children of which blood type(s)?',
     type: 'mcq',
     choices: ['Only AB', 'Only O', 'A or B', 'A, B, AB, or O'],
     correct: 2, difficulty: 'M',
-    explanation: 'Iᴬ Iᴮ × ii → ½ Iᴬi (A) and ½ Iᴮi (B). Neither AB nor O is possible.'
+    explanation: 'Iᴬ Iᴮ × ii → ½ Iᴬi (A) and ½ Iᴮi (B). Neither AB nor O is possible.',
+    visual: Img('ch07_genetics/05_eocbank_img25.jpeg', 'Test cross example', 'Test cross')
   },
   {
     chapter: 'Genetics', q: 'A red snapdragon (RR) × white (WW) → all pink offspring. This is',
@@ -410,7 +420,8 @@ export const exam = [
       'Bottleneck → genetic drift in the small surviving population.',
       'Orange plants resisted lava better than white.'],
     correct: 2, difficulty: 'M',
-    explanation: 'Random survival of a small subset is a population bottleneck — genetic drift, not selection.'
+    explanation: 'Random survival of a small subset is a population bottleneck — genetic drift, not selection.',
+    visual: Img('ch08_evolution_classification/03_eocbank_img4.png', 'Natural selection illustration', 'Variation, selection, inheritance')
   },
   {
     chapter: 'Evolution', q: 'A snake species is introduced to an ecosystem with no natural predators. The most likely long-term effect is',
@@ -432,7 +443,8 @@ export const exam = [
       'Limited food causes extinction by starvation.',
       'Reduced genetic variation, leaving them vulnerable to disease.'],
     correct: 3, difficulty: 'M',
-    explanation: 'Small isolated populations lose variation through drift and inbreeding — they\'re fragile to disease and environmental change.'
+    explanation: 'Small isolated populations lose variation through drift and inbreeding — they\'re fragile to disease and environmental change.',
+    visual: Img('ch08_evolution_classification/05_eocbank_img7.jpeg', 'Speciation diagram', 'Allopatric isolation')
   },
   {
     chapter: 'Evolution', q: 'Antibiotic resistance in bacteria is best explained by',
@@ -507,7 +519,8 @@ export const exam = [
       'Predators control herbivores.',
       'Seasonal temperature changes kill some individuals.'],
     correct: 3, difficulty: 'M',
-    explanation: 'Abiotic = non-living. Temperature is non-living. Parasites, predators, and competition are biotic.'
+    explanation: 'Abiotic = non-living. Temperature is non-living. Parasites, predators, and competition are biotic.',
+    visual: Img('ch09_ecology/01_eocbank_img1.jpeg', 'Carbon cycle / ecosystem diagram', 'Ecosystem cycles')
   },
   {
     chapter: 'Ecology', q: 'Why is human-produced CO₂ a problem despite being needed for photosynthesis?',
@@ -518,7 +531,8 @@ export const exam = [
       'It adds CO₂ to the oceans.',
       'It causes uncontrolled photosynthesis.'],
     correct: 0, difficulty: 'E',
-    explanation: 'Excess CO₂ enhances the greenhouse effect, raising global temperatures and altering climate.'
+    explanation: 'Excess CO₂ enhances the greenhouse effect, raising global temperatures and altering climate.',
+    visual: Img('ch09_ecology/03_eocbank_img2.jpeg', 'Human impact on environment', 'Human ecological impact')
   },
   {
     chapter: 'Ecology', q: 'Which choice is most helpful for sustainability?',
@@ -595,7 +609,8 @@ export const exam = [
     type: 'mcq',
     choices: ['Gymnosperm (Coniferophyta)', 'Bryophyte', 'Seedless vascular', 'Angiosperm'],
     correct: 0, difficulty: 'M',
-    explanation: 'Seeds in cones (no flowers) + vascular tissue = gymnosperm. Conifers are the largest gymnosperm group.'
+    explanation: 'Seeds in cones (no flowers) + vascular tissue = gymnosperm. Conifers are the largest gymnosperm group.',
+    visual: Img('ch10_human_body/02_unit12_p1_i0.png', 'Plant anatomy with vascular tissue', 'Plant anatomy')
   },
   {
     chapter: 'Human Body', q: 'Why is normal scrotal temperature lower than core body temperature?',
